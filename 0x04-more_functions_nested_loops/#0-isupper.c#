@@ -1,0 +1,3 @@
+#include "holberton.h"
+
+/** * main - checks for uppercase character.
