@@ -1,9 +1,9 @@
 #include "holberton.h"
-/**
-* print_number - prints numbers
-* @n: number to be printed
-* Return:void
-*/
+ /**
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
+ */
 
 void print_number(int n)
 {
