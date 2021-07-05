@@ -1,5 +1,5 @@
 /**
- * *memcpy - returns a pointer to dest
+ * *_memcpy - returns a pointer to dest
  * @dest: the address of memory to print
  * @src: address of source character
  * @n: the size of the memory to print
