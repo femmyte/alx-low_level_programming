@@ -1,12 +1,11 @@
 #include "holberton.h"
 
 /**
- * *_memcpy - returns a pointer to dest
- * @dest: the address of memory to print
- * @src: address of source character
- * @n: the size of the memory to print
- *
- * Return: dest.
+ * *_memcpy -  copies memory area from src to dest
+ * @dest: destination
+ * @src: source
+ * @n: max bytes to use
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
