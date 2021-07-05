@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * *_memcpy - returns a pointer to dest
  * @dest: the address of memory to print
@@ -9,10 +11,9 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-
         for(int i = 0; i <= n; i++)
         {
-            *(dest+ i) = *(src + i);
+		*(dest+ i) = *(src + i);
         }
-        return dest;
+        return (dest);
 }
