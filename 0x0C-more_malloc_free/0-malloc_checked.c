@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * 0-malloc_checked.c - return a pointer to the allocated memmory
+ * *malloc_checked - return a pointer to the allocated memmory
  * @b: int
  * Return: pointer to the array initialized array
  */
