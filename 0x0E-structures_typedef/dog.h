@@ -13,6 +13,5 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-	/* declared three members for dog struct */
 
 #endif /* DOG_H */
