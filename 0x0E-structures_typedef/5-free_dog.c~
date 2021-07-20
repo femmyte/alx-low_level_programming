@@ -1,0 +1,20 @@
+#include "dog.h"
+#include <stdlib.h>
+
+/**
+ * free_dog - freeing the created dog
+ * @d: member
+ * Return: Nothing
+ */
+
+void free_dog(dog_t *d)
+{
+	dog_t *p;
+	p = d;
+	p = malloc(sizeof(dog_t));
+
+	p->name = name;
+	p>age = age;
+	p->owner = owner;
+	free(p);
+}
