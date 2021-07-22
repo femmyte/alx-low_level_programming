@@ -1,0 +1,1 @@
+# Variadic function in C programming (functions with multiple variables)
