@@ -22,4 +22,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		for (i = 0; i < n; i++)
 			printf("%d%c ", va_arg(arg, int), *separator);
 	}
+
+	va_end(arg);
 }
